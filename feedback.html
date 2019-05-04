@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>THE SEABLUE</title>
+  <style type="text/css">
+  </style>
+
+
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+</head>
+
+<!--Navigation-->
+<section id="Navigation">
+<h2>.</h2>
+<ul>
+  <li><a href="feedback.html">FEEDBACK</a></li>
+  <li><a href="about.html">ABOUT</a></li>
+  <li><a href="ourmenu.html">MENU</a></li>
+  <li><a class="active" href="index.html">HOME</a></li>
+  <li style="float:left"><a class="active" href="index.html"><strong>THE SEABLUE</strong></a></li>
+</ul>
+</section>
+
+<!-- Feedback Section -->
+<div id="contact">
+    <div class="col-md-8">
+      <div class="row">
+        <div class="section-title">
+          <h2>OUR GUEST FEEDBACK</h2>
+        </div>
+      </div>
+    </div>
+        <h3>Please leave your feedback</h3>
+        <form action="feedback" method="POST">
+        <p>
+        <label>Please select the branch you visited :
+        </label>
+          <select name="branch">
+            <option value="Nilai">Nilai</option>
+            <option value="Kuantan">Kuantan</option>
+            <option value="Kuala Lumpur">Kuala Lumpur</option>
+          </select>
+        </p>
+        <p>
+          <label><input type="radio" name="diningOption" value="dine-in" checked>Dine in</label>
+          <label><input type="radio" name="diningOption" value="take-out">Take out</label>
+        </p>
+        <h3>Personal Information</h3>
+        <p>Name</p>
+        <p>
+          <input type="text" name="firstName" placeholder="First name" size="17">
+          <input type="text" name="LastName" placeholder="Last name" size="17">
+        </p>
+        <p>Address</p>
+        <p>
+          <input type="text" name="streetAdress" placeholder="Street adress" size="42" ><br/>
+          <input type="text" name="streetAdress" size="42" ><br/>
+          <input type="text" name="streetAdress" size="42" ><br/>
+          <input type="text" name="streetAdress" size="42" >
+        </p>
+        <p>Contact </p>
+        <p>
+          <input type="email" name="email" placeholder="Email" size="17">
+          <input type="tel" name="phone" placeholder="Phone number" size="17">
+        </p>
+        <h3>Please rate your experience with us</h3>
+        <p>
+          <label><strong>Food Quality:</strong></label>
+          <label><input type="radio" name="foodQuality" value="excellent">Excellent</label>
+          <label><input type="radio" name="foodQuality" value="good">Good</label>
+          <label><input type="radio" name="foodQuality" value="average">Meh</label>
+          <label><input type="radio" name="foodQuality" value="poor">Didn't like it</label>
+        </p>
+        <p>
+          <label><strong>Cleanliness:</strong></label>
+          <label><input type="radio" name="cleanliness" value="excellent">Excellent</label>
+          <label><input type="radio" name="cleanliness" value="good">Good</label>
+          <label><input type="radio" name="cleanliness" value="average">Meh</label>
+          <label><input type="radio" name="cleanliness" value="poor">Didn't like it</label>
+        </p>
+        <p>
+          <label><strong>Value:</strong></label>
+          <label><input type="radio" name="value" value="excellent">Excellent</label>
+          <label><input type="radio" name="value" value="good">Good</label>
+          <label><input type="radio" name="value" value="average">Meh</label>
+          <label><input type="radio" name="value" value="poor">Didn't like it</label>
+        </p>
+
+        <h3>What did you like the most?</h3>
+        <p>
+        <label><input type="checkbox" name="likedMost" value="design">Design</label>
+        <label><input type="checkbox" name="likedMost" value="food">Food</label>
+        <label><input type="checkbox" name="likedMost" value="service">Service</label>
+        <label><input type="checkbox" name="likedMost" value="all">All</label>
+        <label><input type="checkbox" name="likedMost" value="hate">Hate all</label>
+      </p>
+
+
+          <div id="success"></div>
+          <button type="submit" class="btn btn-custom btn-lg">Submit</button>
+        </form>
+
+    <div class="col-md-3 col-md-offset-1 contact-info">
+      <div class="contact-item">
+        <h3>Contact Info</h3>
+        <p><span><i class="fa fa-map-marker"></i> Address</span>Bangsar,<br>
+          Kuala Lumpur, CA 12345</p>
+      </div>
+      <div class="contact-item">
+        <p><span> Phone</span> +1 123 456 1234</p>
+      </div>
+      <div class="contact-item">
+        <p><span> Email</span> theseablue@company.com</p>
+      </div>
+    </div>
+    <div class="col-md-12">
+      <div class="row">
+        <div class="social">
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+<div class ="footer">
+  <div class="container text-center">
+    <p style="text-align : center; margin-bottom:14px">&copy; 2017 The Seablue. DesignbyBella</p>
+  </div>
+</div>
+</body>
+</html>
